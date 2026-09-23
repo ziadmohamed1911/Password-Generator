@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    background-color: #1F2937;
+}
+#hero {
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#title-one {
+    margin-bottom: 0.1px;
+    color: white;
+    font-weight: 900;
+}
+
+#title-two {
+    margin: 0px auto;
+    color: #4ADF86;
+    font-weight: 900;
+}
+
+#slogan {
+    margin-top: 1px;
+    color: #D5D4D8;
+    font-weight: lighter;
+}
+
+#generate-btn {
+    padding: 12px 24px;
+    background-color: #10B981;
+    border: none;
+    font-family: "Karla", sans-serif;;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background-color: #055138;
+}
+
+.horzintal-line {
+    border: none;
+    height: 1.5px;
+    background-color: #2F3E53;
+    width: 94%;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-around;
+}
+
+.password {
+    background-color: #273549;
+    padding: 10px 35px;
+    border-radius: 8px;
+    color: #55F991;
+    size: fixed;
+    height: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+.password:hover {
+    background-color: #1F2937;
+}
+
+#pass-length-el {
+    font-family: "Karla", sans-serif;;
+    padding: 4px 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #1F2937;
+    border: 1px solid #2F3E53;
+    border-radius: 15px;
+    color: #55F991;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+#error-msg-el{
+    font-weight: lighter;
+    font-size: 14px;
+    color:red;
+    font-style: italic;
+    margin: 2px 150px 2px 20px;
+}
+#gen-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
