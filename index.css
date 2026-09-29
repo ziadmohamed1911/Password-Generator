@@ -37,11 +37,13 @@ body {
     border-radius: 10px;
     margin: 25px 20px;
     cursor: pointer;
-    font-size: 20px
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 #generate-btn:hover {
     background-color: #055138;
+    transform: scale(1.03);
 }
 
 .horzintal-line {
@@ -69,6 +71,7 @@ body {
     height: 20px;
     width: 160px;
     text-align: center;
+    transition: 0.3s ease-in-out;
 }
 
 .password:hover {
